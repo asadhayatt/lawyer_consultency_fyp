@@ -35,8 +35,9 @@
               <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{ url('about') }}">About</a></li> 
               <li class="nav-item"><a class="nav-link" href="{{ url('services') }}">Services</a>
-                <li class="nav-item"><a class="nav-link" href="{{ url('blog') }}">Blog</a>
+              <li class="nav-item"><a class="nav-link" href="{{ url('blog') }}">Blog</a>
               <li class="nav-item"><a class="nav-link" href="{{ url('contact') }}">Contact</a></li>
+              <li class="nav-item" style="background-color: #de6320"><a class="nav-link" style="color:white" href="{{ url('sign-up') }}">Become Our Client</a></li>
             </ul>
           </div> 
         </div>
