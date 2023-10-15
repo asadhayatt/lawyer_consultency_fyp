@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-chess    "></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Lawyer Portal</div>
+        <div class="sidebar-brand-text mx-3">Client Portal</div>
     </a>
 
     <!-- Divider -->
@@ -14,7 +14,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="{{ url('admin/dashboard') }}">
+        <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -39,17 +39,17 @@
     </li> --}}
 
     <li class="nav-item">
-        <a href="{{ url('admin/posts') }}" class="nav-link">
+        <a href="{{ url('client/posts') }}" class="nav-link">
             <i class="fas fa-pen"></i>
             <span>Post</span>
         </a>
     </li>
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a href="{{ url('admin/contact-us') }}" class="nav-link">
             <i class="fa fa-headphones" aria-hidden="true"></i>
             <span>Contact Us</span>
         </a>
-    </li>
+    </li> --}}
 
 
     <!-- Divider -->
