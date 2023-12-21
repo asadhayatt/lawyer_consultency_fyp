@@ -39,7 +39,7 @@
                                         <div class="card-title ml-3">
                                             <h5 class="m-0 p-0">{{ Auth::user()->name }}</h5>
                                             <small>{{ Auth::user()->phone }}</small>
-                                            <small>| {{ Auth::user()->created_at->diffForHumans() }}</small>
+                                            <small>| {{ $post->created_at->diffForHumans() }}</small>
                                             <small>| <a title="Delete post" href="{{ url('client/delete-post',$post->id) }}"><i class="fas fa-trash"></i></a></small>
                                             <small>| <a title="edit post" href="{{ url('client/edit-post',$post->id) }}"><i class="fas fa-pencil-alt"></i></a></small>
                                         </div>
